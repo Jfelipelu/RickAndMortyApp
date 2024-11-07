@@ -11,11 +11,11 @@ This is a web application that allows you to explore the Rick and Morty series. 
 ## Technologies
 ### Frontend:
       React with React Router for routing.
-      Redux for the global state of the app (used in the favorites feature).
+      Redux for the global store of the app (used in the favorites feature).
 
 ### Backend: 
-      Node.js with Express for routing management.
-      MongoDB to store users' Favorites.
+      Node.js with Express for the endpoints and data models
+      MongoDB to store the user Favorites.
 
 ### Data Base: Local MongoDB
 
@@ -27,7 +27,7 @@ This is a web application that allows you to explore the Rick and Morty series. 
 
 ### Project execution:
 * Create a connection to MongoDB with the URI mongodb://localhost:27017. You can do it through the MongoDB Shell or through MongoDB Compass.
-* Create a new Data Base called FavoritesDB with the collection named RickAndMorty. To do this through the shell, use the command use FavoritesDB to create the database and db.createCollection("RickAndMorty") to create the collection. It's easier to do this in Compass by clicking "Add" and selecting the name.
+* Create a new Data Base called FavoritesDB with the collection named RickAndMorty. To do this through the shell, use the command "use FavoritesDB" to create the database and "db.createCollection("RickAndMorty")" to create the collection. It's easier to do this in Compass by clicking "Add" and selecting the name.
 * In the frontend project folder, execute npm install in the terminal to install dependencies. Do the same in the backend folder.
 * Start the frontend development server by running the command npm start.
 * Start the backend development server by running node server.js.
