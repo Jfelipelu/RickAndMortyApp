@@ -34,4 +34,4 @@ const Locations = () => {
   );
 };
 
-export default Locations
+export default Locations;
